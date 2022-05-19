@@ -1,0 +1,183 @@
+/* Styling of navigation bar */
+#navdiv{
+  display:flex;
+  width:17%;
+  margin-left: 82%;
+  justify-content: space-around;
+  margin-top: 1%;
+  height:35px;
+}
+
+nav img{
+  margin-top: 5px;
+}
+
+#googleimg{
+  margin-top: 100px;
+}
+/* Removing underline from links*/
+a{
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+button{
+  border-radius: 3px;
+  height:100%;
+  padding:5px 12px;
+  background-color: #4C87E1 ;
+  color:white;
+  border:none;
+}
+/* setting up size and border stle of search bar*/
+#maindiv{
+width:35%;
+border-radius: 50px;
+display: flex;
+height:40px;
+border:1px solid lightgrey;
+}
+
+#inputspan{
+  width:80%;
+}
+span{
+  vertical-align: top;
+}
+span:first-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+span:last-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+
+input{
+  height:100%;
+  width:100%;
+  border: none;
+  padding:0px;
+}
+
+section{
+  display: flex;
+  margin-top: 2%;
+  width:23%;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+section button{
+  padding:10px 12px;
+  background-color: lightgrey;
+  color:black;
+}
+
+ul{
+  display: flex;
+  width: 30%;
+  padding-left: 0px;
+  list-style: none;
+  justify-content: space-around;
+  margin: 6px;
+}
+#Bottomdiv{
+  display:flex;
+  font-size: 12px;
+  margin-top: 3%;
+}
+#Bottomdiv span{
+  width:7%;
+  margin-left: 31%;
+}
+/*When hovered*/
+a:hover{
+  text-decoration: underline;
+}
+button:hover{
+  border: 1px solid gray;
+}
+
+
+
+
+.g1{
+  color: blue;
+  font-size: 85px ;
+}
+
+.o1{
+  color: red;
+  font-size: 85px ;
+}
+
+.o2{
+  color: yellow;
+  font-size: 85px ;
+}
+
+.g2{
+  color: blue;
+  font-size: 85px ;
+}
+
+.l1{
+  color: green;
+  font-size: 85px ;
+}
+
+.e1{
+  color: red;
+  font-size: 85px ;
+}
+
+.dropdown{
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.menus{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.apply{
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#error
+{
+  color:red;font-weight:bold; padding: 10px; display: none;
+}
+
+
+img{
+  height: 170px;
+  width: 400px;
+}
+
+button
+{
+  border: 1px black solid;
+}
+
+select{
+  height: 50px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+}
+
+#d_text{
+  font-family: monospace;
+  font-size: 15px;
+}
